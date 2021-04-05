@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+      />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+      ></script>
+
+    <title>Maataloustyö M. Rasi</title>
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target=".sisalto-sijainti"
+    >
+    <header class="p-3 bg-dark">
+      <div class="container mt-3 mb-3">
+        <img src="logo.png" alt="logo"/>
+      </div>
+
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <nav class="navbar navbar-dark">
+            <div class="nav nav-pills bg-dark" role="tablist">
+              <button
+                id="etusivu-lehti"
+                class="nav-link text-light active"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#etusivu"
+                aria-controls="etusivu"
+                aria-selected="true"
+                >Etusivu</button>
+              <button
+                id="palvelut-lehti"
+                class="nav-link text-light"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#palvelut"
+                aria-controls="palvelut"
+                aria-selected="false"
+                >Palvelut</button>
+              <button
+                id="yhteydenotto-lehti"
+                class="nav-link text-light"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#yhteydenotto"
+                aria-controls="yhteydenotto"
+                aria-selected="false"
+                >Ota yhteyttä</button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-sm mt-3">
+      <div class="row">
+        <div class="col">
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="etusivu"
+              role="tabpanel"
+              aria-labelledby="etusivu-lehti"
+              >
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h2 class="card-title">Tervetuloa</h2>
+                  <p class="card-text">
+    Maataloustyö M.Rasi on maatalouskoneurakointiin, polttopuun myyntiin, tienhoitoon ja maanrakennukseen erikoistunut yritys, joka muodostaa useiden eri yhteistyökumppaneiden kanssa luotettavan, monipuolisen ja joustavan palvelukokonaisuuden.
+                  </p>
+                  <img
+                    src="etusivu.jpg"
+                    class="card-img-bottom"
+                    style="max-width: 520px"
+                    alt="Aurausta"
+                    />
+                </div>
+                <div class="card-footer text-center text-muted">
+                  Sivut päivitetty 5.4.2021
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="palvelut"
+              role="tabpanel"
+              aria-labelledby="palvelut-lehti"
+              >
+              <div class="row">
+                <div class="col-md-12 col-lg-4 col-xl-3">
+                  <div class="list-group sticky-top mb-3 sisalto-sijainti">
+                    <a class="list-group-item list-group-item-action" href="#item-1">Koneurakointi</a>
+                    <a class="list-group-item list-group-item-action" href="#item-2">Polttopuu</a>
+                    <a class="list-group-item list-group-item-action" href="#item-3">Tienhoito</a>
+                    <a class="list-group-item list-group-item-action" href="#item-4">Maanrakennus</a>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div>
+                    <div id="item-1" class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Monipuolista maatalouskoneurakointia
+                        </h4>
+                        <p class="card-text">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                              Kylvöurakointia nykyaikaisella takapyöräkoneella, jossa kiekkovantaat
+                            </li>
+                            <li class="list-group-item">
+                              Kylvömuokkausta 6-metrisellä joustopiikkiäkeellä
+                            </li>
+                            <li class="list-group-item">
+                              ym.
+                            </li>
+                          </ul>
+                        </p>
+                        <img
+                          src="muokkaus.jpg"
+                          class="card-img-bottom"
+                          style="max-width: 520px"
+                          alt="Muokkausta"
+                          />
+                      </div>
+                    </div>
+
+                    <div id="item-2" class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Polttopuun myynti ja valmistus
+                        </h4>
+                        <p class="card-text">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                              Varastossa aina koivu- ja leppäklapia (33cm)
+                            </li>
+                            <li class="list-group-item">
+                              Muut tilausten mukaan
+                            </li>
+                            <li class="list-group-item">
+                              Pilkomme klapikoneella myös asiakkaitten omia puita tarvittaessa (3-7 pinomottia/h)
+                            </li>
+                          </ul>
+                        </p>
+                        <img
+                          src="etusivu.jpg"
+                          class="card-img-bottom"
+                          style="max-width: 520px"
+                          alt="Aurausta"
+                          />
+                      </div>
+                    </div>
+
+                    <div id="item-3" class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Tienhoito
+                        </h4>
+                        <p class="card-text">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                              Lumenauraukset ja siirrot
+                            </li>
+                            <li class="list-group-item">
+                              Vesakonmurskaus teiden ja peltojen varsilta
+                            </li>
+                            <li class="list-group-item">
+                              Lanaukset järeällä tielanalla tai perälevyllä
+                            </li>
+                            <li class="list-group-item">
+                              Polanteiden tasoitus ja poisto tehokkaalla raspilla
+                            </li>
+                            <li class="list-group-item">
+                              Ojienkaivuut yhdistelmäkaivurilla tai pyöriväalustaisella
+                            </li>
+                          </ul>
+                        </p>
+                        <img
+                          src="aurausta.jpg"
+                          class="card-img-bottom"
+                          style="max-width: 520px"
+                          alt="Aurausta"
+                          />
+                      </div>
+                    </div>
+
+                    <div id="item-4" class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Maanrakennus
+                        </h4>
+                        <p class="card-text">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                              Kaivinkonetyöt yhdistelmäkaivurilla tai pyöriväalustaisella
+                            </li>
+                          </ul>
+                        </p>
+                        <img
+                          src="kaivuri.jpg"
+                          class="card-img-bottom"
+                          style="max-width: 520px"
+                          alt="Aurausta"
+                          />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="yhteydenotto"
+              role="tabpanel"
+              aria-labelledby="yhteydenotto-lehti"
+              >
+              <div class="card mb-3">
+                <div class="card-body">
+                  <p class="card-text">
+                    <form id="yhteydenotto-lomake">
+                      <div class="row mb-3">
+                        <label
+                          for="id_nimi"
+                          class="col-md-4 col-xl-2 col-form-label"
+                          >Nimi *</label>
+                        <div class="col">
+                          <input
+                          type="text"
+                          class="form-control"
+                          name="nimi"
+                          id="id_nimi"
+                          required
+                          />
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label
+                          for="id_puhelin"
+                          class="col-md-4 col-xl-2 col-form-label"
+                          >Puhelin</label>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="puhelin"
+                            id="id_puhelin"
+                            />
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label
+                          for="id_sahkoposti"
+                          class="col-md-4 col-xl-2 col-form-label"
+                          >Sähköposti *</label>
+                        <div class="col">
+                          <input
+                            id="id_sahkoposti"
+                            class="form-control"
+                            type="email"
+                            name="sahkoposti"
+                            required
+                            />
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label
+                          for="id_viesti"
+                          class="col-md-4 col-xl-2 col-form-label"
+                          >Viesti *</label>
+                        <div class="col">
+                          <textarea
+                            class="form-control"
+                            name="viesti"
+                            id="id_viesti"
+                            rows="4"
+                            required
+                            ></textarea>
+                        </div>
+                      </div>
+                      <span class="float-start">
+                        <button type="reset" class="btn btn-danger">Tyhjennä</button>
+                      </span>
+                      <span class="float-end">
+                        <button type="submit" class="btn btn-primary">Lähetä</button>
+                      </span>
+                    </form>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-4">
+          <div class="card sticky-top mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Yhteystiedot</h5>
+              <p class="card-text">
+                Muroleen Kanavantie 230<br/>
+                34300 Kuru<br/>
+                Puh.050-5181713<br/>
+                Mikko.Rasi@seamk.fi<br/>
+                Y-tunnus:2169756-4
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById(
+        "yhteydenotto-lomake"
+      ).addEventListener(
+        "submit",
+        function (e) {
+          return e.preventDefault() && false;
+        },
+        false
+      );
+    </script>
+  </body>
+</html>
